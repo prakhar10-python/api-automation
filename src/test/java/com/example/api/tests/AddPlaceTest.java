@@ -81,7 +81,7 @@ public class AddPlaceTest extends CourseBaseTest {
 
         JsonPath jsonPath = response.jsonPath();
         String actualAddress = jsonPath.get("address");
-        Assert.assertEquals(newAddress,actualAddress); //assertion using java assertion library
+        Assert.assertEquals(newAddress,actualAddress); //assertion using java assertion library from testng
 
     }
 
