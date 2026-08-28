@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Place Suite" verbose="1">
-    <test name="Posts API">
+    <test name="Place API">
         <classes>
             <class name="com.example.api.tests.AddPlaceTest"/>
         </classes>
