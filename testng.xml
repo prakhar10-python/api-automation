@@ -4,6 +4,10 @@
 
 <suite name="API Automation Master Suite" verbose="1">
 
+    <listeners>
+        <listener class-name="listeners.ExtentTestListener"/>
+    </listeners>
+
     <suite-files>
         <suite-file path="test-suites/place.xml"/>
         <suite-file path="test-suites/post.xml"/>
